@@ -65,8 +65,10 @@ Hệ thống đơn giản, dễ làm quen.
 
 Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên có một số bất cập: 
 
-- Quản lý kho, tra cứu thuốc khó khăn, tốn nhiều thời gian. 
-- Phụ thuộc hoàn toàn vào con người, dễ phát sinh các sai sót. 
+- Quản lý kho, tra cứu thuốc khó khăn, tốn nhiều thời gian.
+- Phụ thuộc hoàn toàn vào con người, dễ phát sinh các sai sót.
+- Khó kiểm soát thông tin về khách hàng,nhà cung cấp và thông tin về hàng hoá của cửa hàng.
+- Khó thống kê tình trạng bán hàng, khó đưa ra giải pháp phát triển, nâng cao hiệu quả bán hàng.
 
 ### 1.3. Xác định yêu cầu hệ thống
 
