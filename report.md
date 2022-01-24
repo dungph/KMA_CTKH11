@@ -86,22 +86,22 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Thống kê hóa đơn       |                                                              |                                                              |
 | Thống kê tài chính     |                                                              |                                                              |
 
-#### 1. 3. 2. Yêu cầu phi chức năng (những chức năng mà người dung mong muốn)
+#### 1.3.2. Yêu cầu phi chức năng (những chức năng mà người dung mong muốn)
 
 Giao diện đơn giản, hiệu quả, thông tin trả về hữu ích, tự động sửa những lỗi cơ bản của người dùng. 
 
 Hệ thống chạy nhanh, ổn định, chính xác. 
 
-### 1. 4. Lập kế hoạch thực hiện
+### 1.4. Lập kế hoạch thực hiện
 
-#### 1. 4. 1. Tiến độ thời gian. 
+#### 1.4.1. Tiến độ thời gian. 
 
-#### 1. 4. 2. Nhân lực (Phân công công việc, hỗ trợ, họp nhóm)
+#### 1.4.2. Nhân lực (Phân công công việc, hỗ trợ, họp nhóm)
 
-#### 1. 4. 3. Thiết bị (Phần cứng, Phần mềm, Yêu cầu kỹ thuật)
+#### 1.4.3. Thiết bị (Phần cứng, Phần mềm, Yêu cầu kỹ thuật)
 
-#### 1. 4. 4. Kinh phí (10 điểm)
+#### 1.4.4. Kinh phí (10 điểm)
 
-#### 1. 4. 5. Nền tảng (Công cụ phát triển: CSDL, Ngôn ngữ, Công cụ kiểm thử,... )
+#### 1.4.5. Nền tảng (Công cụ phát triển: CSDL, Ngôn ngữ, Công cụ kiểm thử,... )
 
-#### 1. 4. 6. Đặc tả hệ thống (UML)
+#### 1.4.6. Đặc tả hệ thống (UML)
