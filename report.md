@@ -1,44 +1,27 @@
-<Tên đề tài>
+## Lý do chọn đề tài
 
+​	Với thực trạng hiện nay đó là công việc quản lý diễn ra trên giấy tờ, nhưng khối lượng dữ liệu thì ngày một lớn. Vì vậy chúng tôi xây dựng một phần mềm "Quản lý hiệu thuốc" ra đời nhằm mục đích giải quyết những khó khăn trên giúp cho công việc quản lí trở nên đơn giản, hiệu quả và chính xác hơn bằng việc tự động hóa quá trình quản lý các yếu tố liên quan như thuốc, hóa đơn, nhân viên, khách hàng…
 
+## Phạm vi đề tài
 
-Lý do chọn đề tài: Với thực trạng hiện nay đó là công việc quản lý diễn ra trên giấy tờ, nhưng khối lượng dữ liệu thì ngày một lớn, phần mềm “Quản lý hiệu thuốc” ra đời nhằm mục đích giải quyết những vướng mắc trên, giúp cho công việc quản lí trở nên đơn giản, hiệu quả và chính xác hơn bằng việc tự động hóa quá trình quản lý các yếu tố liên quan như thuốc, hóa đơn, nhân viên…. 
+​	Phân tích, thiết kế hệ thống quản lý nhà thuốc áp dụng cho nhà thuốc WG2.
 
-Phạm vi đề tài: Áp dụng cho các hiệu thuốc trên địa bàn
+## Yêu cầu đề tài
 
-Yêu cầu đề tài: 
-- Các chức năng:
-    - Quản lý thuốc: Tìm kiếm thuốc, nhập thuốc, bán thuốc, thống kê số lượng
-    - Quản lý hóa đơn: Tạo hóa đơn, hệ thống hóa đơn, chỉnh sửa hóa đơn
-    - Quản lý nhân viên: Thêm, chỉnh sửa nhân viên
-    - Tính doanh thu của nhà thuốc
-- Các tiêu chí: 
-    - Dễ sử dụng
-    - Dễ bảo trì
-    - Dễ quản lý các chức năng
-
-
+​	Hoạt động nhóm, hiểu được cách thức, phương pháp phân tích, thiết kế một hệ thống thông tin. Từ đó nắm bắt quy trình quản lý của nhà thuốc, phân tích, thiết kế hệ thống thông tin quản lý thông minh, hiện đại theo yêu cầu của nhà thuốc.
 
 
 ## 1. Khảo sát hệ thống
 
 ### 1. 1. Giới thiệu sơ bộ hệ thống
 
-Tên hệ thống: Nhà thuốc WG2
+​	Nhà thuốc WG2 bắt đầu hoạt động từ tháng 08/2016 do bà Nguyễn Thị Am là chủ của hàng,với mục đích cung cấp các dịch vụ phục vụ cho nhu cầu chữa bệnh cho khách hàng một cách thuận tiện nhất. Nhà thuốc WG2 là nơi chuyên cung cấp các mặt hàng thuốc, thực phẩm chức năng, mĩ phẩm, dụng cụ y khoa nhằm phục vụ tốt nhất cho nhu cầu khám chữa bệnh của quý khách hàng. Với đội ngũ cán bộ 6 dược sĩ luôn học hỏi cập nhập các kiến thức chuyên môn với mong muốn được tư vấn cho khách hàng sử dụng thuốc đúng và hiệu quả. Nhà thuốc thiết lập và mở ra hệ thống website nhằm cung cấp thêm giải pháp hỗ trợ cho quý khách hàng trong việc tìm kiếm và mua các sản phẩm có bán tại Nhà thuốc. Nhà thuốc đã và đang hoạt động cung cấp thuốc trong và ngoài khu vực Hà Nội. Hiện nay với quy mô ngày càng mở rộng trong tình hình dịch bệnh hiện nhà thuốc bán lẻ tại cửa hàng và bán thuốc trực tuyến thông qua website. 
 
-Địa chỉ: 142 Chiến Thắng, Hà Đông, Hà Nội
-
-Chủ đơn vị: Bà Nguyễn Thị An
-
-Quy mô: Cửa hàng bán lẻ
-
-Cơ cấu tổ chức: Chủ cửa hàng, nhân viên quản lý, nhân viên bán hàng, dược sĩ
-
-Cách thức hoạt động: Nhà thuốc là nơi lưu trữ thuốc phục vụ cho khách hàng. Nhân viên của nhà thuốc sẽ thực hiện việc quản lý kho thuốc, bán thuốc và thực hiện thống kê báo cáo lên người quản lý theo thời gian quy định. TODO
+​	Địa chỉ của nhà thuốc tại: số 142, đường Chiến Thắng, xã Tân Triều, huyện Thanh Trì, thành phố Hà Nội với quy mô là 90 m2
 
 ### 1. 2. Đánh giá hiện trạng hệ thống
 
-#### 1. 2. 1. Đánh giá nghiệp vụ (Những nhiệm vụ của hệ thống)
+#### 1.2.1. Đánh giá nghiệp vụ
 
 Các thành phần trong hệ thống nhà thuốc: 
 
@@ -47,35 +30,60 @@ Các thành phần trong hệ thống nhà thuốc:
 - Quản lý tài chính
 - Quản lý nhân sự
 
-Quản lý kho hàng: Nhà thuốc tổ chức lưu trữ, sắp xếp thông tin về thuốc được nhập từ các nhà cung cấp thuốc sau khi được kiểm duyệt. Tuỳ theo từng thời điểm hay dựa theo nhu cầu bổ sung thuốc của kho và trình lên người quản lý. Nếu được chấp nhận sẽ tiến hành kí hợp đồng với nhà cung cấp. Sau khi kí hợp đồng mua thuốc, dược sĩ sẽ chịu trách nhiệm nhận thuốc từ nhà sản xuất và thanh toán hóa đơn nhập thuốc. TODO
+##### Quản lý kho thuốc 
 
-Quản lý bán hàng: 
-
-- Khi khách hàng có yêu cầu mua thuốc: 
-  - Nếu khách hàng đến mua thuốc lẻ thì nhân viên bán hàng sau khi năm bắt được tình hình bênh lý của khách hàng với sử hiểu biết của mình nhân viên bán thuốc sẽ chuẩn đoán bệnh và tư vấn cho khách hàng nên dùng loại thuốc gì (công dụng, thành phần, nước sản xuất, giá thành ) nếu khách hàng đồng ý thí nhân viên bán hàng sẽ viết hoá đơn bán hàng và hướng dẫn cách sử dụng thuốc cho khách hàng. 
-  - Nếu khách khách hàng mua thuốc theo đơn thì nhân viên bán hàng sẽ kiểm tra trong kệ thuốc nếu đáp ứng được loại thuốc nào thì nhân viên bán thuốc sẽ viết hoá đơn bán hàng chuyển cho khách hàng, còn các loại thuốc mà không đáp ứng được thì nhân viên bán hàng sẽ hẹn khách hàng đến mua thuốc trong thời gian sớm nhất có thể hoặc giới thiệu cho khách hàng đến mua ở những cửa hàng có uy tín khác. 
-- Các thông tin trên hoá đơn bán hàng bao gồm: số hoá đơn, tên khách, địa chỉ khách, ngay lập, tổng số tiền, số tiền đã thanh toán, còn nợ, hạn trả nợ. các thông tin chi tiết về thuốc bán bao gồm: Tên thuốc, đơn vị tính, số lượng, đơn giá, thành tiền khi thanh toán cửa hàng sẽ lập một phiếu thu tương ứng với hoá đơn mua thuốc trên phiếu thu có ghi rõ: số phiếu thu, số hoá đơn, ngày lập, người lập, số tiền, ghi chú. Một bản sao của Hoá đơn bán hàng (phiếu xuất ) sẽ được lưu lại để tiện cho quá trình quản lý, còn một bản giao cho khách hàng để tiện cho việc bảo hành trả nợ nếu có của khách hàng sau này cửa hàng quản lý khách hàng bằng cách cập nhật thông tin về khách hàng. Các thông tin về khách hàng bao gồm: mã khách, họ tên khách, địa chỉ, số điện thoại, email. 
-
-Quản lý tài chính: 
-
-- Thu, chi của cửa hàng được nhân viên ghi vào sổ.
-- Sau khi kết thúc ca làm việc, nhân viên bán hàng tổng hợp doanh thu, thực thu và bàn giao cho người quản lý.
-
-Quản lý nhân sự: được thực hiện bởi nhân viên quản lý. 
-
-#### 1.2.2. Quy tắc quản lý: Những quy tắc mà đối tượng trong hệ thống phải tuân theo để đảm bảo đúng: 
+Nhà thuốc tổ chức lưu trữ, sắp xếp thông tin về thuốc được nhập từ các nhà cung cấp thuốc sau khi được kiểm duyệt. Tuỳ theo từng thời điểm hay dựa theo nhu cầu bổ sung thuốc của kho và trình lên người quản lý. Nếu được chấp nhận sẽ tiến hành kí hợp đồng với nhà cung cấp. Sau khi kí hợp đồng mua thuốc, dược sĩ sẽ chịu trách nhiệm nhận thuốc từ nhà sản xuất, thanh toán hóa đơn nhập thuốc và báo cáo lên cán bộ cấp trên. 
 
 
 
-#### 1.2.3. Đánh giá hiện trạng(ưu điểm, tồn tại)
+##### Quản lý bán thuốc
+
+​	Khi khách hàng có yêu cầu mua thuốc: 
+
+- Nếu khách hàng đến mua thuốc lẻ thì nhân viên bán hàng sau khi nắm bắt được tình hình bệnh lý và khai thác dấu hiệu bệnh của khách hàng. Nhân viên bán thuốc sẽ chuẩn đoán bệnh và tư vấn cho khách hàng nên dùng loại thuốc gì (công dụng, thành phần, nước sản xuất, giá thành ) nếu khách hàng đồng ý thí nhân viên bán hàng sẽ viết hoá đơn bán hàng và hướng dẫn cách sử dụng thuốc và tránh những thứ không nên ăn trong quá trình chữa bệnh của khách hàng.
+- Nếu khách khách hàng mua thuốc theo đơn thì dược sĩ sẽ kiểm tra ngày tháng của đơn thuốc, nếu quá 1 tuần thì bệnh nhân đi kháo lại và lấy đơn thuốc khác. Ngược lại kiểm tra trong kệ thuốc nếu đáp ứng được loại thuốc nào thì dược sĩ sẽ tạo hoá đơn bán hàng chuyển cho khách hàng và ghi lại vào sổ quản lý, còn các loại thuốc mà không đáp ứng được thì nhân viên bán hàng sẽ hẹn khách hàng đến mua thuốc trong thời gian sớm nhất có thể hoặc giới thiệu cho khách hàng đến mua ở những cửa hàng có uy tín khác.
+
+​	Các thông tin trên hoá đơn bán hàng bao gồm: số hoá đơn, tên khách, địa chỉ khách, ngày lập, tổng số tiền, số tiền đã thanh toán, còn nợ, hạn trả nợ. các thông tin chi tiết về thuốc bán bao gồm: Tên thuốc, đơn vị tính, số lượng, đơn giá, thành tiền khi thanh toán cửa hàng sẽ lập một phiếu thu tương ứng với hoá đơn mua thuốc trên phiếu thu có ghi rõ: số phiếu thu, số hoá đơn, ngày lập, người lập, số tiền, ghi chú. Một bản sao của hoá đơn bán hàng (phiếu xuất ) sẽ được lưu lại để tiện cho quá trình quản lý, còn một bản giao cho khách hàng để tiện cho việc bảo hành trả nợ nếu có của khách hàng sau này cửa hàng quản lý khách hàng bằng cách cập nhật thông tin về khách hàng. Các thông tin về khách hàng bao gồm: mã khách, họ tên khách, địa chỉ, số điện thoại, email. 
+
+##### Quản lý tài chính
+
+​	Thu, chi của cửa hàng được nhân viên ghi vào sổ, tổng hợp lại vào mỗi ngày, tuần, tháng.
+
+​	Sau khi kết thúc ca làm việc, nhân viên bán hàng tổng hợp doanh thu, thực thu và bàn giao cho người quản lý.
+
+​	Người quản lý sẽ nhận báo cáo về doanh thu sau mỗi ngày và hệ thống lại doanh thu của cửa hàng.
+
+​	Người quản lý phê duyệt ngân sách để dược sĩ nhận thuốc từ nhà sản xuất. Và nhận lại báo cáo sau mỗi lần nhân viên nhập thuốc.
+
+##### Quản lý nhân sự:
+
+​	Người quản lý sẽ quản lý nhân viên khi nhân viên đến cửa hàng và khi nhân viên kết thúc giờ làm việc.
+
+​	Người quản lý chịu trách nhiệm tính tổng giờ làm, tính lương, lập phiếu chi và trả lương cho nhân viên.
+
+#### 1.2.2. Quy tắc quản lý
+
+​	Đối với dược sĩ
+
+- Làm việc đúng giờ.
+- Thái độ trung thực, thân thiện với khách hàng.
+- Đơn bán thuốc ghi đầy đủ, rõ ràng.
+- Thống kê đầy đủ doanh số bán hàng, lượng thuốc tồn kho và báo cáo cho quản lý.
+
+​	Quản lý
+
+- Không được lạm quyền.
+- Nắm bắt được lượng tồn kho để có kế hoạch nhập thuốc.        
+
+#### 1.2.3. Đánh giá hiện trạng
 
 ##### 1.2.4.1. Ưu điểm
 
-Hệ thống đơn giản, dễ làm quen. 
+​	Hệ thống đơn giản, dễ làm quen. 
 
 ##### 1.2.4.2. Nhược điểm
 
-Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên có một số bất cập: 
+​	Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên có một số bất cập: 
 
 - Quản lý kho, tra cứu thuốc khó khăn, tốn nhiều thời gian.
 - Phụ thuộc hoàn toàn vào con người, dễ phát sinh các sai sót.
@@ -84,7 +92,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 ### 1.3. Xác định yêu cầu hệ thống
 
-#### 1.3.1. Yêu cầu về chức năng (thực hiện các công việc gì), đưa ra dự kiến các chức năng của phần mềm (sản phẩm dự kiến)
+#### 1.3.1. Yêu cầu về chức năng
 
 | Chức năng              | Đầu vào                                                      | Đầu ra                                                       |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -97,11 +105,16 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Thống kê hóa đơn       | Các điều kiện lọc (Thông tin khách hàng, khoảng thời gian, ...) | Thông tin hóa đơn theo điều kiện                             |
 | Thống kê tài chính     | Khoảng thời gian thống kê                                    | Báo cáo thu, chi, thuế trong khoảng thời gian đã cho         |
 
-#### 1.3.2. Yêu cầu phi chức năng (những chức năng mà người dung mong muốn)
+#### 1.3.2. Yêu cầu phi chức năng
 
-Giao diện đơn giản, hiệu quả, thông tin trả về hữu ích, tự động sửa những lỗi cơ bản của người dùng. 
-
-Hệ thống chạy nhanh, ổn định, chính xác. 
+- Hệ thống chạy nhanh, ổn định, chính xác.
+- Giao diện dễ sử dụng
+- Quá trình thao tác, xử lý nhanh
+- Đảm bảo an toàn, chính xác
+- Phải đưa ra được các thông tin cần thiết về quầy thuốc, loại thuốc
+- Các phiếu nhập, xuất phải đưa ra được các thông tin cụ thể như: số phiếu, tên khách hàng, địa chỉ, tên thuốc, đơn giá… 
+- Báo cáo phải xác định được chính xác về quá trình nhập, xuất, tồn kho…
+- Quá trình cập nhật, sửa, xóa dễ dàng
 
 ### 1.4. Lập kế hoạch thực hiện
 
