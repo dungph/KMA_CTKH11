@@ -4,9 +4,19 @@
 
 Lý do chọn đề tài: Với thực trạng hiện nay đó là công việc quản lý diễn ra trên giấy tờ, nhưng khối lượng dữ liệu thì ngày một lớn, phần mềm “Quản lý hiệu thuốc” ra đời nhằm mục đích giải quyết những vướng mắc trên, giúp cho công việc quản lí trở nên đơn giản, hiệu quả và chính xác hơn bằng việc tự động hóa quá trình quản lý các yếu tố liên quan như thuốc, hóa đơn, nhân viên…. 
 
-Phạm vi đề tài:
+Phạm vi đề tài: Áp dụng cho các hiệu thuốc trên địa bàn
 
 Yêu cầu đề tài: 
+- Các chức năng:
+    - Quản lý thuốc: Tìm kiếm thuốc, nhập thuốc, bán thuốc, thống kê số lượng
+    - Quản lý hóa đơn: Tạo hóa đơn, hệ thống hóa đơn, chỉnh sửa hóa đơn
+    - Quản lý nhân viên: Thêm, chỉnh sửa nhân viên
+    - Tính doanh thu của nhà thuốc
+- Các tiêu chí: 
+    - Dễ sử dụng
+    - Dễ bảo trì
+    - Dễ quản lý các chức năng
+
 
 
 
