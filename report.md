@@ -96,9 +96,8 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 ##### 1.3.1.1. Đăng nhập
 
-|                   |                                                              |
-| :---------------- | ------------------------------------------------------------ |
 | Tên chức năng     | Đăng nhập                                                    |
+| :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Nhân viên bán thuốc, Quản lý                                 |
 | Điều kiện đầu vào | Không                                                        |
 | Nội dung          | Cho phép người dùng đăng nhập vào hệ thống                   |
@@ -108,9 +107,8 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 ##### 1.3.1.2. Đăng xuất
 
-|                   |                                                              |
-| :---------------- | ------------------------------------------------------------ |
 | Tên chức năng     | Đăng xuất                                                    |
+| :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Nhân viên bán thuốc, Quản lý                                 |
 | Điều kiện đầu vào | Đã đăng nhập thành công                                      |
 | Nội dung          | Cho phép người dùng đăng xuất khỏi hệ thống                  |
@@ -120,9 +118,8 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 ##### 1.3.1.3. Tìm kiếm thuốc
 
-|                   |                                                              |
-| :---------------- | ------------------------------------------------------------ |
 | Tên chức năng     | Tìm kiếm thuốc                                               |
+| :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Nhân viên bán thuốc, quản lý                                 |
 | Điều kiện đầu vào |                                                              |
 | Nội dung          | Tìm kiếm thuốc theo thông tin cho trước                      |
@@ -132,9 +129,8 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 ##### 1.3.1.4. Bán thuốc
 
-|                   |                                                              |
-| :---------------- | ------------------------------------------------------------ |
 | Tên chức năng     | Bán thuốc                                                    |
+| :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Nhân viên bán thuốc                                          |
 | Điều kiện đầu vào | Người dùng đã đăng nhập hệ thống                             |
 | Nội dung          | Tạo hóa đơn bán thuốc                                        |
@@ -144,9 +140,8 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 ##### 1.3.1.5. Nhập thuốc
 
-|                   |                                                              |
-| :---------------- | ------------------------------------------------------------ |
 | Tên chức năng     | Nhập thuốc                                                   |
+| :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Quản lý                                                      |
 | Điều kiện đầu vào | Người dùng đã đăng nhập hệ thống                             |
 | Nội dung          | Tạo hóa đơn nhập thuốc                                       |
@@ -167,9 +162,8 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 ##### 1.3.1.7. Quản lý nhân viên
 
-|                   |                                                              |
-| :---------------- | ------------------------------------------------------------ |
 | Tên chức năng     | Quản lý nhân viên                                            |
+| :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Quản lý, Quản trị viên                                       |
 | Điều kiện đầu vào | Người dùng đã đăng nhập vào hệ thống                         |
 | Nội dung          | Chỉnh sửa thông tin nhân viên                                |
@@ -179,9 +173,8 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 ##### 1.3.1.8. Thống kê kho thuốc
 
-|                   |                                                              |
-| :---------------- | ------------------------------------------------------------ |
 | Tên chức năng     | Thống kê kho thuốc                                           |
+| :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Nhân viên bán hàng, Quản lý                                  |
 | Điều kiện đầu vào | Người dùng đã đăng nhập vào hệ thống                         |
 | Nội dung          | Thống kê lượng tồn kho                                       |
@@ -191,9 +184,8 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 ##### 1.3.1.9. Thống kê hóa đơn
 
-|                   |                                                              |
-| :---------------- | ------------------------------------------------------------ |
 | Tên chức năng     | Thống kê hóa đơn                                             |
+| :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Nhân viên bán hàng, quản lý                                  |
 | Điều kiện đầu vào | Người dùng đã đăng nhập vào hệ thống                         |
 | Nội dung          | Đưa ra danh sách hóa đơn trong khoảng thời gian cho trước.   |
@@ -253,33 +245,31 @@ Kiểm thử được hỗ trợ trực tiếp bởi Rust, kiểm thử chạy t
 
 #### 1.4.6. Đặc tả hệ thống
 
+##### 1.4.6.1. Usecase tổng quát
 
+![](/diagram/general.png)
 
-##### 1.4.6.1. usecase tổng quát
+##### 1.4.6.2. Usecase chi tiết đăng nhập
 
-![](/home/dun/Crates/KMA_CTKH11/diagram/general.png)
+![](/diagram/signin.png)
 
-##### 1.4.6.1. usecase chi tiết đăng nhập
+##### 1.4.6.3. Usecase bán hàng
 
-![](/home/dun/Crates/KMA_CTKH11/diagram/signin.png)
+![](/diagram/pos.png)
 
-##### 1.4.6.1. usecase quản lý thuốc
+##### 1.4.6.4. Usecase quản lý thuốc
 
-![](/home/dun/Crates/KMA_CTKH11/diagram/medicine_manage.png)
+![](/diagram/medicine_manage.png)
 
-##### 1.4.6.1. usecase quản lý hóa đơn
+##### 1.4.6.5. Usecase quản lý hóa đơn
 
-![](/home/dun/Crates/KMA_CTKH11/diagram/bills.png)
+![](/diagram/bills.png)
 
-##### 1.4.6.1. usecase quản lý nhân viên
+##### 1.4.6.6. Usecase quản lý nhân viên
 
-![](/home/dun/Crates/KMA_CTKH11/diagram/staff.png)
+![](/diagram/staff.png)
 
-##### 1.4.6.1. usecase quản lý tài chính
+##### 1.4.6.7. Usecase quản lý tài chính
 
-![](/home/dun/Crates/KMA_CTKH11/diagram/finance.png)
-
-##### 1.4.6.1. usecase bán hàng
-
-![](/home/dun/Crates/KMA_CTKH11/diagram/pos.png)
+![](/diagram/finance.png)
 
