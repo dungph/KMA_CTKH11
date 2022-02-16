@@ -1,6 +1,6 @@
 ## Lý do chọn đề tài
 
-Với thực trạng hiện nay đó là công việc quản lý diễn ra trên giấy tờ, nhưng khối lượng dữ liệu thì ngày một lớn. Vì vậy phần mềm "Quản lý hiệu thuốc" ra đời nhằm mục đích giải quyết những khó khăn trên giúp cho công việc quản lí trở nên đơn giản, hiệu quả và chính xác hơn bằng việc tự động hóa quá trình quản lý các yếu tố liên quan như thuốc, hóa đơn, nhân viên, khách hàng…
+Với thực trạng hiện nay đó là công việc quản lý diễn ra trên giấy tờ, nhưng khối lượng dữ liệu thì ngày một lớn. Vì vậy phần mềm "Quản lý hiệu thuốc" ra đời nhằm giải quyết những khó khăn trên giúp cho công việc quản lí trở nên đơn giản, hiệu quả và chính xác hơn bằng việc tự động hóa quá trình quản lý các yếu tố liên quan như thuốc, hóa đơn, nhân viên, khách hàng…
 
 ## Phạm vi đề tài
 
@@ -99,7 +99,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Tên chức năng     | Đăng nhập                                                    |
 | :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Nhân viên bán thuốc, Quản lý                                 |
-| Điều kiện đầu vào | Không                                                        |
+| Điều kiện đầu vào | Nhân viên đã có tên trong danh sách nhân viên                |
 | Nội dung          | Cho phép người dùng đăng nhập vào hệ thống                   |
 | Cách xử lý        | 1. Người dùng chọn tên và nhập mật khẩu. Nhấn nút đăng nhập<br />2. Hệ thống kiểm tra dữ liệu người dùng. Nếu thành công thì chuyển sang trang quản lý người dùng. Nếu thất bại thì in ra thông báo. |
 | Kết quả           | Đăng nhập thành công hoặc thất bại                           |
@@ -121,7 +121,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Tên chức năng     | Tìm kiếm thuốc                                               |
 | :---------------- | ------------------------------------------------------------ |
 | Đối tượng sử dụng | Nhân viên bán thuốc, quản lý                                 |
-| Điều kiện đầu vào |                                                              |
+| Điều kiện đầu vào | Không                                                        |
 | Nội dung          | Tìm kiếm thuốc theo thông tin cho trước                      |
 | Cách xử lý        | 1. Người dùng nhấn vào thanh tìm kiếm<br />2. Người dùng nhập vào ít nhất một thông tin về mã thuốc, tên thuốc, hoạt chất, nhóm thuốc, nhà cung cấp<br />3. Hệ thống tìm kiếm trong cơ sở dữ liệu các loại thuốc tương ứng, in ra màn hình.<br />4. Nếu người dùng đã đăng nhập, hiển thị mục "Tạo đơn hàng" trên mỗi mục. Chuyển đến trang "Bán thuốc" với loại thuốc tương ứng. |
 | Kết quả           | Hiển thị danh sách thuốc tìm được (các thông tin về thuốc, vị trí đặt thuốc) |
@@ -206,6 +206,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 
 #### 1.3.2. Yêu cầu phi chức năng
 
+- Tuân thủ các nguyên tắc kế toán.
 - Hệ thống chạy nhanh, ổn định, chính xác.
 - Giao diện dễ sử dụng
 - Quá trình thao tác, xử lý nhanh
