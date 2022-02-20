@@ -248,25 +248,25 @@ Kiểm thử được hỗ trợ trực tiếp bởi Rust, kiểm thử chạy t
 
 ##### 1.4.6.1. Usecase tổng quát
 
-![](/diagram/general.png)
+![](./diagram/general.png)
 
 ##### 1.4.6.2. Usecase bán hàng
 
-![](/diagram/pos.png)
+![](./diagram/pos.png)
 
 ##### 1.4.6.3. Usecase quản lý thuốc
 
-![](/diagram/medicine_manage.png)
+![](./diagram/medicine_manage.png)
 
 ##### 1.4.6.4. Usecase quản lý hóa đơn
 
-![](/diagram/bills.png)
+![](./diagram/bills.png)
 
 ##### 1.4.6.5. Usecase quản lý nhân viên
 
-![](/diagram/staff.png)
+![](./diagram/staff.png)
 
 ##### 1.4.6.6. Usecase quản lý tài chính
 
-![](/diagram/finance.png)
+![](./diagram/finance.png)
 
