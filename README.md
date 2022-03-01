@@ -216,25 +216,25 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 - Báo cáo phải xác định được chính xác về quá trình nhập, xuất, tồn kho…
 - Quá trình cập nhật, sửa, xóa dễ dàng
 
-### 1.4. Lập kế hoạch thực hiện
+## 2. Lập kế hoạch thực hiện
 
-#### 1.4.1. Tiến độ thời gian.
+### 2.1. Tiến độ thời gian.
 
 Thời gian thiết kế: 2 tháng
 
 Thời gian thi công, kiểm thử, triển khai: 2 tháng
 
-#### 1.4.2. Nhân lực
+### 2.2 Nhân lực
 
 Nhóm bao gồm 5 thành viên tham gia trao đổi, đóng góp trên tất cả các công đoạn phân tích, thiết kế và phát triển.
 
-#### 1.4.3. Thiết bị
+### 2.3 Thiết bị
 
 Máy chủ linux, thiết bị hiển thị tương tác với người dùng: trình duyệt web trên máy tính, trình duyệt web trên điện thoại.
 
-#### 1.4.4. Kinh phí
+### 2.4. Kinh phí
 
-#### 1.4.5. Nền tảng
+### 2.5. Nền tảng
 
 Công cụ quản lý mã nguồn: Git - Phần mềm quản lý mã nguồn phổ biến và dễ sử dụng, giúp nhiều thành viên trong nhóm dễ dàng làm chung trong dự án.
 
@@ -244,29 +244,110 @@ Ngôn ngữ lập trình Rust cho tốc độ cao, tiêu tốn ít tài nguyên 
 
 Kiểm thử được hỗ trợ trực tiếp bởi Rust, kiểm thử chạy tự động trên hệ thống Github Action.
 
-#### 1.4.6. Đặc tả hệ thống
+### 2.6. Đặc tả hệ thống
 
-##### 1.4.6.1. Usecase tổng quát
+#### 2.6.1. Biểu đồ usecase
 
-![](./diagram/general.png)
+##### 2.6.1.1. Usecase tổng quát
 
-##### 1.4.6.2. Usecase bán hàng
+![](./diagram/usecase/general.png)
 
-![](./diagram/pos.png)
+##### 2.6.1.2. Usecase bán hàng
 
-##### 1.4.6.3. Usecase quản lý thuốc
+![](./diagram/usecase/pos.png)
 
-![](./diagram/medicine_manage.png)
+##### 2.6.1.3. Usecase quản lý thuốc
 
-##### 1.4.6.4. Usecase quản lý hóa đơn
+![](./diagram/usecase/medicine_manage.png)
 
-![](./diagram/bills.png)
+##### 2.6.1.4. Usecase quản lý hóa đơn
 
-##### 1.4.6.5. Usecase quản lý nhân viên
+![](./diagram/usecase/bills.png)
 
-![](./diagram/staff.png)
+##### 2.6.1.5. Usecase quản lý nhân viên
 
-##### 1.4.6.6. Usecase quản lý tài chính
+![](./diagram/usecase/staff.png)
 
-![](./diagram/finance.png)
+##### 2.6.1.6. Usecase quản lý tài chính
 
+![](diagram/usecase/finance.png)
+
+
+
+#### 2.6.2. Biểu đồ lớp
+
+#### 2.6.3. Biểu đồ trình tự
+
+##### 2.6.3.1. Biểu đồ trình tự đăng nhập
+
+![](diagram/sequence/session_login.drawio.png)
+
+##### 2.6.3.2. Biểu đồ trình tự đăng xuất
+
+![](diagram/sequence/session_signout.drawio.png)
+
+##### 2.6.3.3. Biểu đồ trình tự bán hàng
+
+![](diagram/sequence/pos_sequence.drawio.png)
+
+##### 2.6.3.4. Biểu đồ trình tự kiểm tra hóa đơn bán hàng
+
+![bill_check.drawio](diagram/sequence/bill_check.drawio.png)
+
+##### 2.6.3.5. Biểu đồ trình tự hủy hóa đơn bán hàng
+
+![bill_cancel.drawio](diagram/sequence/bill_cancel.drawio.png)
+
+##### 2.6.3.6. Biểu đồ trình tự thống kê hóa đơn bán hàng
+
+![bill_statistic.drawio](diagram/sequence/bill_statistic.drawio.png)
+
+##### 2.6.3.7. Biểu đồ trình tự tìm kiếm sản phẩm
+
+![product_find.drawio](diagram/sequence/product_find.drawio.png)
+
+##### 2.6.3.8. Biểu đồ trình tự sửa thông tin sản phẩm
+
+![product_data_change.drawio](diagram/sequence/product_data_change.drawio.png)
+
+##### 2.6.3.9. Biểu đồ trình tự nhập sản phẩm
+
+![product_import.drawio](diagram/sequence/product_import.drawio.png)
+
+##### 2.6.3.10. Biểu đồ trình tự xuất sản phẩm
+
+![product_export.drawio](diagram/sequence/product_export.drawio.png)
+
+##### 2.6.3.11. Biểu đồ trình tự thống kê sản phẩm
+
+![product_statistic.drawio](diagram/sequence/product_statistic.drawio.png)
+
+##### 2.6.3.12. Biểu đồ trình tự kiểm tra tài chính
+
+![finance_check.drawio](diagram/sequence/finance_check.drawio.png)
+
+##### 2.6.3.13. Biểu đồ trình tự tạo phiếu thu
+
+![finance_in.drawio](diagram/sequence/finance_in.drawio.png)
+
+##### 2.6.3.14. Biểu đồ trình tự tạo phiếu chi
+
+![finance_out.drawio](diagram/sequence/finance_out.drawio.png)
+
+##### 2.6.3.15. Biểu đồ trình tự thống kê tài chính
+
+![finance_statistic.drawio](diagram/sequence/finance_statistic.drawio.png)
+
+##### 2.6.3.16. Biểu đồ trình tự tạo nhân viên mới
+
+![staff_new.drawio](diagram/sequence/staff_new.drawio.png)
+
+##### 2.6.3.17. Biểu đồ trình tự sửa thông tin nhân viên
+
+![staff_change_info.drawio](diagram/sequence/staff_change_info.drawio.png)
+
+##### 2.6.3.18. Biểu đồ trình tự danh sách nhân viên
+
+![staff_list.drawio](diagram/sequence/staff_list.drawio.png)
+
+##### 
