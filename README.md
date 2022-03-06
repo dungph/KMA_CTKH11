@@ -1,27 +1,27 @@
-## Lý do chọn đề tài
+# Lý do chọn đề tài
 
 Với thực trạng hiện nay đó là công việc quản lý diễn ra trên giấy tờ, nhưng khối lượng dữ liệu thì ngày một lớn. Vì vậy phần mềm "Quản lý hiệu thuốc" ra đời nhằm giải quyết những khó khăn trên giúp cho công việc quản lí trở nên đơn giản, hiệu quả và chính xác hơn bằng việc tự động hóa quá trình quản lý các yếu tố liên quan như thuốc, hóa đơn, nhân viên, khách hàng…
 
-## Phạm vi đề tài
+# Phạm vi đề tài
 
 Phân tích, thiết kế hệ thống quản lý nhà thuốc áp dụng cho nhà thuốc WG2.
 
-## Yêu cầu đề tài
+# Yêu cầu đề tài
 
 Hoạt động nhóm, hiểu được cách thức, phương pháp phân tích, thiết kế một hệ thống thông tin. Từ đó nắm bắt quy trình quản lý của nhà thuốc, phân tích, thiết kế hệ thống thông tin quản lý thông minh, hiện đại theo yêu cầu của nhà thuốc.
 
 
-## 1. Khảo sát hệ thống
+# 1. Khảo sát hệ thống
 
-### 1.1. Giới thiệu sơ bộ hệ thống
+## 1.1. Giới thiệu sơ bộ hệ thống
 
 Nhà thuốc WG2 bắt đầu hoạt động từ tháng 08/2016 do bà Nguyễn Thị Am là chủ của hàng,với mục đích cung cấp các dịch vụ phục vụ cho nhu cầu chữa bệnh cho khách hàng một cách thuận tiện nhất. Nhà thuốc WG2 là nơi chuyên cung cấp các mặt hàng thuốc, thực phẩm chức năng, mĩ phẩm, dụng cụ y khoa nhằm phục vụ tốt nhất cho nhu cầu khám chữa bệnh của quý khách hàng. Với đội ngũ cán bộ 6 dược sĩ luôn học hỏi cập nhập các kiến thức chuyên môn với mong muốn được tư vấn cho khách hàng sử dụng thuốc đúng và hiệu quả. Nhà thuốc thiết lập và mở ra hệ thống website nhằm cung cấp thêm giải pháp hỗ trợ cho quý khách hàng trong việc tìm kiếm và mua các sản phẩm có bán tại Nhà thuốc. Nhà thuốc đã và đang hoạt động cung cấp thuốc trong và ngoài khu vực Hà Nội. Hiện nay với quy mô ngày càng mở rộng trong tình hình dịch bệnh hiện nhà thuốc bán lẻ tại cửa hàng và bán thuốc trực tuyến thông qua website. 
 
 Địa chỉ của nhà thuốc tại: số 142, đường Chiến Thắng, xã Tân Triều, huyện Thanh Trì, thành phố Hà Nội với quy mô là 90 m2
 
-### 1.2. Đánh giá hiện trạng hệ thống
+## 1.2. Đánh giá hiện trạng hệ thống
 
-#### 1.2.1. Đánh giá nghiệp vụ
+### 1.2.1. Đánh giá nghiệp vụ
 
 Các thành phần trong hệ thống nhà thuốc: 
 
@@ -30,13 +30,13 @@ Các thành phần trong hệ thống nhà thuốc:
 - Quản lý tài chính
 - Quản lý nhân sự
 
-##### Quản lý kho thuốc 
+#### Quản lý kho thuốc 
 
 Nhà thuốc tổ chức lưu trữ, sắp xếp thông tin về thuốc được nhập từ các nhà cung cấp thuốc sau khi được kiểm duyệt. Tuỳ theo từng thời điểm hay dựa theo nhu cầu bổ sung thuốc của kho và trình lên người quản lý. Nếu được chấp nhận sẽ tiến hành kí hợp đồng với nhà cung cấp. Sau khi kí hợp đồng mua thuốc, dược sĩ sẽ chịu trách nhiệm nhận thuốc từ nhà sản xuất, thanh toán hóa đơn nhập thuốc và báo cáo lên cán bộ cấp trên. 
 
 
 
-##### Quản lý bán thuốc
+#### Quản lý bán thuốc
 
 Khi khách hàng có yêu cầu mua thuốc: 
 
@@ -45,7 +45,7 @@ Khi khách hàng có yêu cầu mua thuốc:
 
 Các thông tin trên hoá đơn bán hàng bao gồm: số hoá đơn, tên khách, địa chỉ khách, ngày lập, tổng số tiền, số tiền đã thanh toán, còn nợ, hạn trả nợ. các thông tin chi tiết về thuốc bán bao gồm: Tên thuốc, đơn vị tính, số lượng, đơn giá, thành tiền khi thanh toán cửa hàng sẽ lập một phiếu thu tương ứng với hoá đơn mua thuốc trên phiếu thu có ghi rõ: số phiếu thu, số hoá đơn, ngày lập, người lập, số tiền, ghi chú. Một bản sao của hoá đơn bán hàng (phiếu xuất ) sẽ được lưu lại để tiện cho quá trình quản lý, còn một bản giao cho khách hàng để tiện cho việc bảo hành trả nợ nếu có của khách hàng sau này cửa hàng quản lý khách hàng bằng cách cập nhật thông tin về khách hàng. Các thông tin về khách hàng bao gồm: mã khách, họ tên khách, địa chỉ, số điện thoại, email. 
 
-##### Quản lý tài chính
+#### Quản lý tài chính
 
 Thu, chi của cửa hàng được nhân viên ghi vào sổ, tổng hợp lại vào mỗi ngày, tuần, tháng.
 
@@ -55,13 +55,13 @@ Người quản lý sẽ nhận báo cáo về doanh thu sau mỗi ngày và h�
 
 Người quản lý phê duyệt ngân sách để dược sĩ nhận thuốc từ nhà sản xuất. Và nhận lại báo cáo sau mỗi lần nhân viên nhập thuốc.
 
-##### Quản lý nhân sự:
+#### Quản lý nhân sự:
 
 Người quản lý sẽ quản lý nhân viên khi nhân viên đến cửa hàng và khi nhân viên kết thúc giờ làm việc.
 
 Người quản lý chịu trách nhiệm tính tổng giờ làm, tính lương, lập phiếu chi và trả lương cho nhân viên.
 
-#### 1.2.2. Quy tắc quản lý
+### 1.2.2. Quy tắc quản lý
 
 Đối với dược sĩ
 
@@ -75,13 +75,13 @@ Quản lý
 - Không được lạm quyền.
 - Nắm bắt được lượng tồn kho để có kế hoạch nhập thuốc.        
 
-#### 1.2.3. Đánh giá hiện trạng
+### 1.2.3. Đánh giá hiện trạng
 
-##### 1.2.4.1. Ưu điểm
+#### 1.2.4.1. Ưu điểm
 
 Hệ thống đơn giản, dễ làm quen. 
 
-##### 1.2.4.2. Nhược điểm
+#### 1.2.4.2. Nhược điểm
 
 Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên có một số bất cập: 
 
@@ -90,11 +90,11 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 - Khó kiểm soát thông tin về khách hàng,nhà cung cấp và thông tin về hàng hoá của cửa hàng.
 - Khó thống kê tình trạng bán hàng, khó đưa ra giải pháp phát triển, nâng cao hiệu quả bán hàng.
 
-### 1.3. Xác định yêu cầu hệ thống
+## 1.3. Xác định yêu cầu hệ thống
 
-#### 1.3.1. Yêu cầu về chức năng
+### 1.3.1. Yêu cầu về chức năng
 
-##### 1.3.1.1. Đăng nhập
+#### 1.3.1.1. Đăng nhập
 
 | Tên chức năng     | Đăng nhập                                                    |
 | :---------------- | ------------------------------------------------------------ |
@@ -105,7 +105,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Đăng nhập thành công hoặc thất bại                           |
 | Ghi chú           |                                                              |
 
-##### 1.3.1.2. Đăng xuất
+#### 1.3.1.2. Đăng xuất
 
 | Tên chức năng     | Đăng xuất                                                    |
 | :---------------- | ------------------------------------------------------------ |
@@ -116,7 +116,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Đăng xuất thành công.                                        |
 | Ghi chú           |                                                              |
 
-##### 1.3.1.3. Tìm kiếm thuốc
+#### 1.3.1.3. Tìm kiếm thuốc
 
 | Tên chức năng     | Tìm kiếm thuốc                                               |
 | :---------------- | ------------------------------------------------------------ |
@@ -127,7 +127,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Hiển thị danh sách thuốc tìm được (các thông tin về thuốc, vị trí đặt thuốc) |
 | Ghi chú           | Các thông tin về thuốc: Mã thuốc, tên thuốc, hoạt chất, nhóm thuốc, nhà cung cấp, ngày hết hạn, đơn giá, lượng tồn kho. |
 
-##### 1.3.1.4. Bán thuốc
+#### 1.3.1.4. Bán thuốc
 
 | Tên chức năng     | Bán thuốc                                                    |
 | :---------------- | ------------------------------------------------------------ |
@@ -138,7 +138,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Tạo hóa đơn thành công hoặc thất bại                         |
 | Ghi chú           |                                                              |
 
-##### 1.3.1.5. Nhập thuốc
+#### 1.3.1.5. Nhập thuốc
 
 | Tên chức năng     | Nhập thuốc                                                   |
 | :---------------- | ------------------------------------------------------------ |
@@ -149,7 +149,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Nhập thành công hoặc thất bại                                |
 | Ghi chú           | Thông tin về thuốc: Mã thuốc, tên thuốc, hoạt chất, nhóm thuốc, nhà cung cấp, ngày hết hạn, đơn giá. |
 
-##### 1.3.1.6. Tạo khoản chi
+#### 1.3.1.6. Tạo khoản chi
 
 | Tên chức năng     | Tạo khoản chi                                                |
 | :---------------- | ------------------------------------------------------------ |
@@ -160,7 +160,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Rút thành công hoặc thất bại                                 |
 | Ghi chú           |                                                              |
 
-##### 1.3.1.7. Quản lý nhân viên
+#### 1.3.1.7. Quản lý nhân viên
 
 | Tên chức năng     | Quản lý nhân viên                                            |
 | :---------------- | ------------------------------------------------------------ |
@@ -171,7 +171,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Chỉnh sửa thành công hoặc thất bại                           |
 | Ghi chú           | Thông tin nhân viên bao gồm: Tên nhân viên, giới tính, năm sinh, chức vụ (Nhân viên bán hàng hoặc/và Quản lý). |
 
-##### 1.3.1.8. Thống kê kho thuốc
+#### 1.3.1.8. Thống kê kho thuốc
 
 | Tên chức năng     | Thống kê kho thuốc                                           |
 | :---------------- | ------------------------------------------------------------ |
@@ -182,7 +182,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Danh sách các loại thuốc tìm được.                           |
 | Ghi chú           | Các thông tin về thuốc: Mã thuốc, tên thuốc, hoạt chất, nhóm thuốc, nhà cung cấp, ngày hết hạn, đơn giá, lượng tồn kho. |
 
-##### 1.3.1.9. Thống kê hóa đơn
+#### 1.3.1.9. Thống kê hóa đơn
 
 | Tên chức năng     | Thống kê hóa đơn                                             |
 | :---------------- | ------------------------------------------------------------ |
@@ -193,7 +193,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Danh sách hóa đơn                                            |
 | Ghi chú           | Thông tin trong danh sách bao gồm: Mã hóa đơn, thời gian tạo, số tiền, người lập hóa đơn. |
 
-##### 1.3.1.10. Thống kê tài chính
+#### 1.3.1.10. Thống kê tài chính
 
 | Tên chức năng     | Thống kê tài chính                                           |
 | :---------------- | ------------------------------------------------------------ |
@@ -204,7 +204,7 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 | Kết quả           | Lượng tiền vào/ra trong khoảng thời gian đã nhập, danh sách các hóa đơn, khoản chi trong thời gian tương ứng. |
 | Ghi chú           |                                                              |
 
-#### 1.3.2. Yêu cầu phi chức năng
+### 1.3.2. Yêu cầu phi chức năng
 
 - Tuân thủ các nguyên tắc kế toán.
 - Hệ thống chạy nhanh, ổn định, chính xác.
@@ -216,25 +216,25 @@ Do hệ thống làm việc trên sổ sách, không thông qua máy tính nên 
 - Báo cáo phải xác định được chính xác về quá trình nhập, xuất, tồn kho…
 - Quá trình cập nhật, sửa, xóa dễ dàng
 
-## 2. Lập kế hoạch thực hiện
+# 2. Thiết kế hệ thống
 
-### 2.1. Tiến độ thời gian.
+## 2.1. Tiến độ thời gian.
 
 Thời gian thiết kế: 2 tháng
 
 Thời gian thi công, kiểm thử, triển khai: 2 tháng
 
-### 2.2 Nhân lực
+## 2.2 Nhân lực
 
 Nhóm bao gồm 5 thành viên tham gia trao đổi, đóng góp trên tất cả các công đoạn phân tích, thiết kế và phát triển.
 
-### 2.3 Thiết bị
+## 2.3 Thiết bị
 
 Máy chủ linux, thiết bị hiển thị tương tác với người dùng: trình duyệt web trên máy tính, trình duyệt web trên điện thoại.
 
-### 2.4. Kinh phí
+## 2.4. Kinh phí
 
-### 2.5. Nền tảng
+## 2.5. Nền tảng
 
 Công cụ quản lý mã nguồn: Git - Phần mềm quản lý mã nguồn phổ biến và dễ sử dụng, giúp nhiều thành viên trong nhóm dễ dàng làm chung trong dự án.
 
@@ -244,110 +244,178 @@ Ngôn ngữ lập trình Rust cho tốc độ cao, tiêu tốn ít tài nguyên 
 
 Kiểm thử được hỗ trợ trực tiếp bởi Rust, kiểm thử chạy tự động trên hệ thống Github Action.
 
-### 2.6. Đặc tả hệ thống
+## 2.6. Đặc tả hệ thống
 
-#### 2.6.1. Biểu đồ usecase
+### 2.6.1. Biểu đồ usecase
 
-##### 2.6.1.1. Usecase tổng quát
+#### 2.6.1.1. Usecase tổng quát
 
-![](./diagram/usecase/general.png)
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/usecase/general.png)
 
-##### 2.6.1.2. Usecase bán hàng
+#### 2.6.1.2. Usecase bán hàng
 
-![](./diagram/usecase/pos.png)
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/usecase/pos.png)
 
-##### 2.6.1.3. Usecase quản lý thuốc
+#### 2.6.1.3. Usecase quản lý thuốc
 
-![](./diagram/usecase/medicine_manage.png)
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/usecase/medicine_manage.png)
 
-##### 2.6.1.4. Usecase quản lý hóa đơn
+#### 2.6.1.4. Usecase quản lý hóa đơn bán hàng
 
-![](./diagram/usecase/bills.png)
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/usecase/bills.png)
 
-##### 2.6.1.5. Usecase quản lý nhân viên
+#### 2.6.1.5. Usecase quản lý nhân viên
 
-![](./diagram/usecase/staff.png)
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/usecase/staff.png)
 
-##### 2.6.1.6. Usecase quản lý tài chính
+#### 2.6.1.6. Usecase quản lý tài chính
 
-![](diagram/usecase/finance.png)
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/usecase/finance.png)
 
 
 
-#### 2.6.2. Biểu đồ lớp
+### 2.6.2. Biểu đồ lớp
 
-#### 2.6.3. Biểu đồ trình tự
+### 2.6.3. Biểu đồ trình tự
 
-##### 2.6.3.1. Biểu đồ trình tự đăng nhập
+#### 2.6.3.1. Biểu đồ trình tự đăng nhập
 
-![](diagram/sequence/session_login.drawio.png)
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/session_login.drawio.png)
 
-##### 2.6.3.2. Biểu đồ trình tự đăng xuất
+#### 2.6.3.2. Biểu đồ trình tự đăng xuất
 
-![](diagram/sequence/session_signout.drawio.png)
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/session_signout.drawio.png)
 
-##### 2.6.3.3. Biểu đồ trình tự bán hàng
+#### 2.6.3.3. Biểu đồ trình tự bán hàng
 
-![](diagram/sequence/pos_sequence.drawio.png)
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/pos_sequence.drawio.png)
 
-##### 2.6.3.4. Biểu đồ trình tự kiểm tra hóa đơn bán hàng
+#### 2.6.3.4. Biểu đồ trình tự kiểm tra hóa đơn bán hàng
 
-![bill_check.drawio](diagram/sequence/bill_check.drawio.png)
+![bill_check.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/bill_check.drawio.png)
 
-##### 2.6.3.5. Biểu đồ trình tự hủy hóa đơn bán hàng
+#### 2.6.3.5. Biểu đồ trình tự hủy hóa đơn bán hàng
 
-![bill_cancel.drawio](diagram/sequence/bill_cancel.drawio.png)
+![bill_cancel.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/bill_cancel.drawio.png)
 
-##### 2.6.3.6. Biểu đồ trình tự thống kê hóa đơn bán hàng
+#### 2.6.3.6. Biểu đồ trình tự thống kê hóa đơn bán hàng
 
-![bill_statistic.drawio](diagram/sequence/bill_statistic.drawio.png)
+![bill_statistic.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/bill_statistic.drawio.png)
 
-##### 2.6.3.7. Biểu đồ trình tự tìm kiếm sản phẩm
+#### 2.6.3.7. Biểu đồ trình tự tìm kiếm sản phẩm
 
-![product_find.drawio](diagram/sequence/product_find.drawio.png)
+![product_find.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/product_find.drawio.png)
 
-##### 2.6.3.8. Biểu đồ trình tự sửa thông tin sản phẩm
+#### 2.6.3.8. Biểu đồ trình tự sửa thông tin sản phẩm
 
-![product_data_change.drawio](diagram/sequence/product_data_change.drawio.png)
+![product_data_change.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/product_data_change.drawio.png)
 
-##### 2.6.3.9. Biểu đồ trình tự nhập sản phẩm
+#### 2.6.3.9. Biểu đồ trình tự nhập sản phẩm
 
-![product_import.drawio](diagram/sequence/product_import.drawio.png)
+![product_import.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/product_import.drawio.png)
 
-##### 2.6.3.10. Biểu đồ trình tự xuất sản phẩm
+#### 2.6.3.10. Biểu đồ trình tự xuất sản phẩm
 
-![product_export.drawio](diagram/sequence/product_export.drawio.png)
+![product_export.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/product_export.drawio.png)
 
-##### 2.6.3.11. Biểu đồ trình tự thống kê sản phẩm
+#### 2.6.3.11. Biểu đồ trình tự thống kê sản phẩm
 
-![product_statistic.drawio](diagram/sequence/product_statistic.drawio.png)
+![product_statistic.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/product_statistic.drawio.png)
 
-##### 2.6.3.12. Biểu đồ trình tự kiểm tra tài chính
+#### 2.6.3.12. Biểu đồ trình tự kiểm tra tài chính
 
-![finance_check.drawio](diagram/sequence/finance_check.drawio.png)
+![finance_check.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/finance_check.drawio.png)
 
-##### 2.6.3.13. Biểu đồ trình tự tạo phiếu thu
+#### 2.6.3.13. Biểu đồ trình tự tạo phiếu thu
 
-![finance_in.drawio](diagram/sequence/finance_in.drawio.png)
+![finance_in.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/finance_in.drawio.png)
 
-##### 2.6.3.14. Biểu đồ trình tự tạo phiếu chi
+#### 2.6.3.14. Biểu đồ trình tự tạo phiếu chi
 
-![finance_out.drawio](diagram/sequence/finance_out.drawio.png)
+![finance_out.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/finance_out.drawio.png)
 
-##### 2.6.3.15. Biểu đồ trình tự thống kê tài chính
+#### 2.6.3.15. Biểu đồ trình tự thống kê tài chính
 
-![finance_statistic.drawio](diagram/sequence/finance_statistic.drawio.png)
+![finance_statistic.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/finance_statistic.drawio.png)
 
-##### 2.6.3.16. Biểu đồ trình tự tạo nhân viên mới
+#### 2.6.3.16. Biểu đồ trình tự tạo nhân viên mới
 
-![staff_new.drawio](diagram/sequence/staff_new.drawio.png)
+![staff_new.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/staff_new.drawio.png)
 
-##### 2.6.3.17. Biểu đồ trình tự sửa thông tin nhân viên
+#### 2.6.3.17. Biểu đồ trình tự sửa thông tin nhân viên
 
-![staff_change_info.drawio](diagram/sequence/staff_change_info.drawio.png)
+![staff_change_info.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/staff_change_info.drawio.png)
 
-##### 2.6.3.18. Biểu đồ trình tự danh sách nhân viên
+#### 2.6.3.18. Biểu đồ trình tự danh sách nhân viên
 
-![staff_list.drawio](diagram/sequence/staff_list.drawio.png)
+![staff_list.drawio](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sequence/staff_list.drawio.png)
 
-##### 
+
+
+
+
+### 2.6.4. Biểu đồ hoạt động
+
+#### 2.6.4.1. Biểu đồ hoạt động bán hàng
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/activity/pos.drawio.png)
+
+#### 2.6.4.2. Biểu đồ hoạt động kiểm tra đơn hàng
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/activity/bill_check.drawio.png)
+
+#### 2.6.4.3. Biểu đồ hoạt động hủy đơn hàng
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/activity/bill_cancel.drawio.png)
+
+#### 2.6.4.4. Biểu đồ hoạt động thống kê bán hàng
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/activity/bill_statistic.drawio.png)
+
+#### 2.6.4.5. Biểu đồ hoạt động nhập hàng
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/activity/product_import.drawio.png)
+
+#### 2.6.4.6. Biểu đồ hoạt động sửa thông tin sản phẩm
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/activity/product_change_info.drawio.png)
+
+#### 2.6.4.7. Biểu đồ hoạt động tạo phiếu thu
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/activity/finance_in.drawio.png)
+
+#### 2.6.4.8. Biểu đồ hoạt động thêm nhân viên mới
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/activity/staff_new.drawio.png)
+
+#### 2.6.4.9. Biểu đồ hoạt động thay đổi thông tin nhân viên
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/activity/staff_change_info.drawio.png)
+
+
+
+### 2.6.5. Biểu đồ thành phần
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/components.drawio.png)
+
+### 2.6.6. Biểu đồ triển khai
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/deploy.drawio.png)
+
+### 2.6.7. Cơ sở dữ liệu
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/sql.png)
+
+### 2.6.8. Giao diện phần mềm
+
+#### 2.6.8.1. Giao diện đăng nhập
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/login.jpg)
+
+#### 2.6.8.2. Giao diện bán hàng
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/pos.png)
+
+#### 2.6.8.3. Giao diện quản lý sản phẩm
+
+![](https://raw.githubusercontent.com/dungph/KMA_CTKH11/main/diagram/product_management.jpg)
